@@ -1,15 +1,15 @@
-import sys
-from os import rename
+# import sys
+# from os import rename
 
 import requests
 
-print(sys.version)
-print(sys.executable)
+# print(sys.version)
+# print(sys.executable)
 
 
-def greet(who_to_greet):
-    greeting = "Hello, {}".format(who_to_greet)
-    return greeting
+# def greet(who_to_greet):
+#     greeting = "Hello, {}".format(who_to_greet)
+#     return greeting
 
 
 # # print(greet('World'))
@@ -22,3 +22,5 @@ print(r.status_code)
 
 # name = input("Your name? ")
 # print("Hello,", name)
+
+print(r.ok)
